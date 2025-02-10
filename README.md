@@ -1,4 +1,4 @@
-# AzureFunctionApp
+# AzureCosmosDbApp
 
 ## Project Purpose
 This is a basic CRUD application using Azure Cosmos DB NoSQL. It provides standard Create, Read, Update, and Delete operations through a REST API. The project serves as a practice implementation for working with Cosmos DB in a RESTful architecture.
