@@ -211,9 +211,4 @@ Linkedin - [darwijesinghe](https://www.linkedin.com/in/darwijesinghe/)
 GitHub - [darwijesinghe](https://github.com/darwijesinghe)
 
 ## License
-<<<<<<< HEAD
 This project is licensed under the terms of the **MIT** license.
-=======
-
-This project is licensed under the terms of the **MIT** license.
->>>>>>> 05b82cab80b16917aa7ba48acbb792123eda64c4
