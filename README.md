@@ -159,7 +159,7 @@ function getDaysLeft(targetDate) {
 
 ## Usage
 ```json5
-# Creates a new task
+// Creates a new task
 
 POST /api/cosmos/create-record/{containerName}
 
@@ -172,22 +172,22 @@ POST /api/cosmos/create-record/{containerName}
 }
 ```
 ```json5
-# Gets a specific task
+// Gets a specific task
 
 GET /api/cosmos/get-task/{id}/{containerName}
 ```
 ```json5
-# Gets all tasks
+// Gets all tasks
 
 GET /api/cosmos/get-tasks/{containerName}
 ```
 ```json5
-# Gets remaining days of the tasks
+// Gets remaining days of the tasks
 
 GET /api/cosmos/get-remaining-days/{containerName}
 ```
 ```json5
-# Updates an existing task
+// Updates an existing task
 
 PUT /api/cosmos/update-task/{id}/{containerName}
 
@@ -200,7 +200,7 @@ PUT /api/cosmos/update-task/{id}/{containerName}
 }
 ```
 ```json5
-# Deletes an existing task
+// Deletes an existing task
 
 DELETE /api/cosmos/deletetask/{id}/{containerName}
 ```
