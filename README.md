@@ -172,6 +172,27 @@ POST /api/cosmos/create-record/{containerName}
 }
 ```
 ```json5
+// Bulk insert
+
+POST /api/cosmos/bulk-insert/{containerName}
+
+// Request Body
+
+[
+  {
+    "TaskName": "Task 1.",
+    "Assignee": "Nadeesha",
+    "Deadline": "2025-02-10"
+  },
+  {
+    "TaskName": "Task 2.",
+    "Assignee": "Nadeesha",
+    "Deadline": "2025-02-11"
+  },
+  ...
+]
+```
+```json5
 // Gets a specific task
 
 GET /api/cosmos/get-task/{id}/{containerName}
@@ -202,7 +223,7 @@ PUT /api/cosmos/update-task/{id}/{containerName}
 ```json5
 // Deletes an existing task
 
-DELETE /api/cosmos/deletetask/{id}/{containerName}
+DELETE /api/cosmos/delete-task/{id}/{containerName}
 ```
 ## Support
 Darshana Wijesinghe  
