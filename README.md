@@ -1,4 +1,4 @@
-# AzureFunctionApp
+# AzureCosmosDbApp
 
 ## Project Purpose
 This is a basic CRUD application using Azure Cosmos DB NoSQL. It supports standard Create, Read, Update, and Delete operations through a .NET 6 REST API. The project also incorporates bulk insert procedures, pre-trigger (for validating duplicate names), post-trigger (for inserting log information), and user-defined functions (UDF) to calculate days left for tasks. This implementation serves as a practice for working with Cosmos DB in a RESTful architecture.
@@ -211,4 +211,9 @@ Linkedin - [darwijesinghe](https://www.linkedin.com/in/darwijesinghe/)
 GitHub - [darwijesinghe](https://github.com/darwijesinghe)
 
 ## License
+<<<<<<< HEAD
 This project is licensed under the terms of the **MIT** license.
+=======
+
+This project is licensed under the terms of the **MIT** license.
+>>>>>>> 05b82cab80b16917aa7ba48acbb792123eda64c4
