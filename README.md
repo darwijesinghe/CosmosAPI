@@ -7,6 +7,7 @@ This is a basic CRUD application using Azure Cosmos DB NoSQL. It supports standa
 Darshana Wijesinghe
 
 ## App Features
+- Supports multiple collections (containers).
 - Supports Create, Read, Update, and Delete operations for managing data.
 - Supports bulk insert procedure.
 - Supports pre-trigger (validates duplicate names) and post-trigger (inserts log info) execution.
