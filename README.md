@@ -162,7 +162,7 @@ function getDaysLeft(targetDate) {
 ```json5
 // Creates a new task
 
-POST /api/cosmos/create-record/{containerName}
+POST /api/cosmos/create-record?{containerName}
 
 // Request Body
 
@@ -175,7 +175,7 @@ POST /api/cosmos/create-record/{containerName}
 ```json5
 // Bulk insert
 
-POST /api/cosmos/bulk-insert/{containerName}
+POST /api/cosmos/bulk-insert?containerName={containerName}
 
 // Request Body
 
@@ -196,22 +196,22 @@ POST /api/cosmos/bulk-insert/{containerName}
 ```json5
 // Gets a specific task
 
-GET /api/cosmos/get-task/{id}/{containerName}
+GET /api/cosmos/get-task?id={id}&containerName={containerName}
 ```
 ```json5
 // Gets all tasks
 
-GET /api/cosmos/get-tasks/{containerName}
+GET /api/cosmos/get-tasks?containerName={containerName}
 ```
 ```json5
 // Gets remaining days of the tasks
 
-GET /api/cosmos/get-remaining-days/{containerName}
+GET /api/cosmos/get-remaining-days?containerName={containerName}
 ```
 ```json5
 // Updates an existing task
 
-PUT /api/cosmos/update-task/{id}/{containerName}
+PUT /api/cosmos/update-task?id={id}&containerName={containerName}
 
 // Request Body
 
@@ -224,7 +224,7 @@ PUT /api/cosmos/update-task/{id}/{containerName}
 ```json5
 // Deletes an existing task
 
-DELETE /api/cosmos/delete-task/{id}/{containerName}
+DELETE /api/cosmos/delete-task?id={id}&containerName={containerName}
 ```
 ## Support
 Darshana Wijesinghe  
