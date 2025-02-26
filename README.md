@@ -162,7 +162,7 @@ function getDaysLeft(targetDate) {
 ```json5
 // Creates a new task
 
-POST /api/cosmos/create-record?{containerName}
+POST /api/cosmos/create-record?containerName={containerName}
 
 // Request Body
 
